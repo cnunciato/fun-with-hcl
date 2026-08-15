@@ -1,0 +1,7 @@
+config:
+  aws:region: us-west-2
+  cape-town:instance_type: t3.micro
+  cape-town:service_port: "80"
+  cape-town:vpc_network_cidr: 10.0.0.0/16
+environment:
+  - default/personal

@@ -1,0 +1,7 @@
+name: cape-town
+description: A Pulumi HCL program to deploy a virtual machine on Amazon EC2
+runtime: hcl
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: vm-aws-hcl
